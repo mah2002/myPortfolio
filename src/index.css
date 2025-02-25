@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit", Arial, Helvetica, sans-serif;
+}
+
+/* Default LTR styles */
+body {
+  text-align: left;
+  direction: ltr;
+}
+
+/* RTL-specific styles */
+[dir="rtl"] body {
+  text-align: right;
+  direction: rtl;
+}
+
+/* Example: Adjust margins and padding for RTL */
+[dir="rtl"] .language-switcher {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+[dir="rtl"] .lang-btn {
+  margin-left: 10px;
+  margin-right: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}

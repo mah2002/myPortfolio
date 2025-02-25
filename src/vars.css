@@ -1,0 +1,28 @@
+/* :root {
+  --color-text: #fff;
+  --color-primary: #576cbc;
+  --color-secondary: #19376d;
+  --color-dark: #0b2447;
+  --color-bg: #04152d;
+  --font-roboto: "Roboto";}
+   */
+
+/* :root {
+  --color-text: #C3E0E5;
+  --color-primary: #000C66;
+  --color-secondary: #41729F;
+  --color-dark: #050A30;
+  --color-bg: #05445E;
+
+  --font-roboto: "Roboto";
+} */
+
+:root {
+  --color-text: #fff;
+  --color-primary: #d6a89a;
+  --color-secondary: #a95b7d;
+  --color-dark: #7c2d54;
+  --color-bg: #4b0b40;
+
+  --font-roboto: "Roboto";
+}
