@@ -42,16 +42,16 @@ const getMenuImageStyle=(lng)=>{
           onClick={() => setMenuOpen(false)}
         >
           <li>
-            <a href="#about">About</a>
+            <a href="#about">{t('about')}</a>
           </li>
           <li>
-            <a href="#experience">Experience</a>
+            <a href="#experience">{t('Experience')}</a>
           </li>
           <li>
-            <a href="#projects">Projects</a>
+            <a href="#projects">{t('Projects')}</a>
           </li>
           <li>
-            <a href="#contact">Contact</a>
+            <a href="#contact">{t('contact')}</a>
           </li>
           <li>
           <LanguageSwitcher />

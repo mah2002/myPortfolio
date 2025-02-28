@@ -1,5 +1,21 @@
 [
   {
+    "title": "WPF",
+    "imageSrc": "skills/wpf.jpg"
+  },
+  {
+    "title": "ASP .NET Core",
+    "imageSrc": "skills/core.png"
+  },
+  {
+    "title": "Python",
+    "imageSrc": "skills/python.png"
+  },
+  {
+    "title": "SQL Server",
+    "imageSrc": "skills/sqlserver.png"
+  },
+  {
     "title": "HTML",
     "imageSrc": "skills/html.png"
   },
@@ -14,17 +30,6 @@
   {
     "title": "Node",
     "imageSrc": "skills/node.png"
-  },
-  {
-    "title": "GraphQL",
-    "imageSrc": "skills/graphql.png"
-  },
-  {
-    "title": "MongoDB",
-    "imageSrc": "skills/mongodb.png"
-  },
-  {
-    "title": "Figma",
-    "imageSrc": "skills/figma.png"
   }
+  
 ]

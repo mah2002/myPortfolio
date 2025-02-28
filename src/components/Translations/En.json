@@ -1,12 +1,29 @@
 {
+  "me": "Hi, I'm Negar",
+  "inroduceMe": "I'm a Back-End developer and windows developer with 5 years of experience using Asp .NET Core and WPF. Reach out if you'd like to learn more!",
+  "backHeader": "Backend Developer",
+  "backDetails": "I have experience developing fast and optimised back-end systems and APIs",
+  "windowsHeader": "Windows Developer",
+  "windowsDetails": "I'm a Windows developer with experience in building cusomized and optimized applications",
     "welcome": "Welcome to My Portfolio",
     "about": "About Me",
     "portfolio": "Portfolio",
+    "FeelFree": "Feel free to reach out!",
     "resume": "Resume",
-    "contact": "Contact",
+    "contact": "Contact Me",
     "homeContent": "This is the home page of my portfolio.",
     "aboutContent": "I am a passionate developer...",
     "portfolioContent": "Check out my projects...",
     "Portfolio": "Portfolio",
-    "Frontend Developer": "Frontend Developer"
+    "Experience": "Experiences",
+    "Projects": "Projects",
+    "role0": "Software Engineer",
+    "organisation0": "Neco",
+    "startDate0": "March, 2020",
+    "endDate0": "Present",
+    "experiences0-0": "Worked on Neco organization",
+    "experiences0-1": "Add new features every day",
+    "projectTitle0": "Project Neco, ",
+    "projecDescription0": "This is a project for company that i am working right now."
+
   }

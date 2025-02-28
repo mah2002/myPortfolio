@@ -1,14 +1,15 @@
 import React from "react";
-
+import { useTranslation } from 'react-i18next';
 import styles from "./Experience.module.css";
 import skills from "../../data/skills.json";
 import history from "../../data/history.json";
 import { getImageUrl } from "../../utils";
 
 export const Experience = () => {
+  const { t } = useTranslation();
   return (
     <section className={styles.container} id="experience">
-      <h2 className={styles.title}>Experience</h2>
+      <h2 className={styles.title}>{t('Experience')}</h2>
       <div className={styles.content}>
         <div className={styles.skills}>
           {skills.map((skill, id) => {
@@ -31,11 +32,11 @@ export const Experience = () => {
                   alt={`${historyItem.organisation} Logo`}
                 />
                 <div className={styles.historyItemDetails}>
-                  <h3>{`${historyItem.role}, ${historyItem.organisation}`}</h3>
-                  <p>{`${historyItem.startDate} - ${historyItem.endDate}`}</p>
+                  <h3>{`${t('role'+id)}, ${t('organisation'+id)}`}</h3>
+                  <p>{`${t('startDate'+id)} - ${t('endDate'+id)}`}</p>
                   <ul>
-                    {historyItem.experiences.map((experience, id) => {
-                      return <li key={id}>{experience}</li>;
+                    {historyItem.experiences.map((experience, id2) => {
+                      return <li key={id2}>{t('experiences'+id+'-'+id2)}</li>;
                     })}
                   </ul>
                 </div>
