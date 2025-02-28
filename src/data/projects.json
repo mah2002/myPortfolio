@@ -1,7 +1,7 @@
 [
   {
     "title": "Project Neco, ",
-    "imageSrc": "projects/necoPrj.png",
+    "imageSrc": "projects/project.png",
     "description": "This is a project for company that i am working right now.",
     "skills": ["c#", "WPF", "Asp .Net Core"],
     "demo": "",
