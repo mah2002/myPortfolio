@@ -17,6 +17,16 @@ const getMenuImageStyle=(lng)=>{
     return '0px'
   }
 }
+const handleDownload = () => {
+  const fileName=i18n.language === 'fa'? 'MyResumeFa':'MyResumeEn';
+  const fileUrl = 'assets/resume/'+fileName+'.pdf';
+  const link = document.createElement('a');
+  link.href = fileUrl;
+  link.setAttribute('download', 'resume.pdf');
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+};
     // Set initial direction
     const direction = i18n.language === 'fa' ? 'rtl' : 'ltr';
     document.documentElement.setAttribute('dir', direction);
@@ -52,6 +62,9 @@ const getMenuImageStyle=(lng)=>{
           </li>
           <li>
             <a href="#contact">{t('contact')}</a>
+          </li>
+          <li>
+            <button  className={`${styles.downloadButton}`} onClick={handleDownload}>{t('resume')}</button>
           </li>
           <li>
           <LanguageSwitcher />
