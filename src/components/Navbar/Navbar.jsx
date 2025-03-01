@@ -19,7 +19,7 @@ const getMenuImageStyle=(lng)=>{
 }
 const handleDownload = () => {
   const fileName=i18n.language === 'fa'? 'MyResumeFa':'MyResumeEn';
-  const fileUrl = 'assets/resume/'+fileName+'.pdf';
+  const fileUrl = fileName+'.pdf';
   const link = document.createElement('a');
   link.href = fileUrl;
   link.setAttribute('download', 'resume.pdf');
